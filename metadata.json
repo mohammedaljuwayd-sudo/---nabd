@@ -1,0 +1,6 @@
+{
+  "name": "منصة نبض - مرافق الأمانة",
+  "description": "منصة الحوكمة الذكية لمرافق الأمانة بالدمام لربط المواطن والموظف وصانع القرار عبر حلقة عمل موحدة وخوارزمية التكرار وإعادة السفلتة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,24 @@
+<svg width="240" height="200" viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Center Pin Emblem -->
+  <g transform="translate(85, 8)">
+    <path d="M35 3C17.2 3 3 17.2 3 35C3 50 20 68 31.6 80.4C33.4 82.3 36.6 82.3 38.4 80.4C50 68 67 50 67 35C67 17.2 52.8 3 35 3Z" stroke="#0B3A5B" stroke-width="4.5" stroke-linejoin="round" fill="white"/>
+    <circle cx="48" cy="22" r="4" fill="#D4AF37"/>
+    <g fill="#0B3A5B">
+      <path d="M18 51V32L24 28V51H18Z"/>
+      <path d="M25 51V25L31 22V51H25Z"/>
+      <path d="M32 51V17L38 20V51H32Z"/>
+      <path d="M39 51V24L45 27V51H39Z"/>
+      <path d="M46 51V31L52 34V51H46Z"/>
+      <path d="M15 51C15 51 24 55 35 55C46 55 55 51 55 51V54C55 54 46 60 35 60C24 60 15 54 15 54V51Z"/>
+      <rect x="34" y="24" width="1.5" height="3" fill="white"/>
+      <rect x="34" y="30" width="1.5" height="3" fill="white"/>
+      <rect x="34" y="36" width="1.5" height="3" fill="white"/>
+    </g>
+  </g>
+  <!-- Arabic Wordmark: نبض -->
+  <text x="120" y="145" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="900" font-size="44" fill="#0B3A5B">نَبْـض</text>
+  <!-- English Subtitle: N A B D -->
+  <text x="120" y="172" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="800" font-size="14" fill="#D4AF37" letter-spacing="0.38em">N A B D</text>
+  <!-- Tagline -->
+  <text x="120" y="192" text-anchor="middle" font-family="'Cairo', sans-serif" font-weight="600" font-size="9" fill="#6B7280">سلسلة واحدة لمرافق الأمانة</text>
+</svg>

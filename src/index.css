@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cairo: "Cairo", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --color-nabd-navy: #0B3A5B;
+  --color-nabd-navy-dark: #07253B;
+  --color-nabd-navy-light: #16537E;
+  --color-nabd-green: #10B981;
+  --color-nabd-green-dark: #059669;
+  --color-nabd-gold: #D4AF37;
+  --color-nabd-red: #EF4444;
+}
+
+body {
+  font-family: var(--font-cairo), sans-serif;
+  background-color: #F8FAFC;
+  color: #0F172A;
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* Modern smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Leaflet map styles */
+.leaflet-container {
+  font-family: var(--font-cairo), sans-serif !important;
+  direction: ltr;
+  z-index: 1;
+  border-radius: 1.25rem;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 16px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05) !important;
+  direction: rtl !important;
+  text-align: right !important;
+  font-family: var(--font-cairo), sans-serif !important;
+  border: 1px solid #E2E8F0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 14px 16px !important;
+  line-height: 1.5 !important;
+}
+
+/* Pulsing radar effect */
+@keyframes radar-pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.9;
+  }
+}
+
+.radar-pulse {
+  animation: radar-pulse 2.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* Smooth glass effect */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-panel-dark {
+  background: rgba(11, 58, 91, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
